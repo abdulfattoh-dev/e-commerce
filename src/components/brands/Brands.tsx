@@ -11,7 +11,7 @@ const Brands = () => {
           <h2 className="text-[#454545] text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-bold text-center sm:text-left">
             Только проверенные бренды
           </h2>
-          <div className="flex items-center gap-2.5 hidden sm:flex">
+          <div className="flex items-center gap-2.5 sm:flex">
             <img
               src={arrowl}
               alt="arrow left"
