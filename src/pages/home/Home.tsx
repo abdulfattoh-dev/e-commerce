@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+import ProductView from "../../components/product-view/ProductView";
+import Brands from "../../components/brands/Brands";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Footer/>
+      <ProductView />
+      <Brands />
     </div>
   );
 };
