@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { AlignLeft, ChartNoAxesColumnIncreasing, Heart, Search, ShoppingCart } from 'lucide-react';
 import noorlight from '../../assets/NORNLIGHT.svg'
@@ -23,7 +24,7 @@ const categoryLinks = [
   'Мебельные установки',
 ]
 
-export default function Header() {
+const Header = () => {
   return (
     <header >
       {/* Top bar */}
@@ -89,3 +90,4 @@ export default function Header() {
     </header>
   )
 }
+export default React.memo(Header)

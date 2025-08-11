@@ -1,8 +1,9 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
-import noorlight from '../../assets/NORNLIGHT.svg'
-import vector from '../../assets/Vector.svg'
-import payment from '../../assets/image 1.svg'
-import vk from '../../assets/vk-one.svg'
+import noorlight from '../../assets/header-footer/NORNLIGHT.svg'
+import vector from '../../assets/header-footer/Vector.svg'
+import payment from '../../assets/header-footer/image 1.svg'
+import vk from '../../assets/header-footer/vk-one.svg'
 
 
 const buyers = [
@@ -28,7 +29,7 @@ const products = [
   'Светодиодные ленты',
 ]
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer className="mt-8 bg-[#F2F2F2]">
       <div className="container py-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-27">
@@ -98,3 +99,5 @@ export default function Footer() {
     </footer>
   )
 }
+
+export default React.memo(Footer)
