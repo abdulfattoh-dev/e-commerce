@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { AlignLeft, ChartNoAxesColumnIncreasing, Heart, Search, ShoppingCart } from 'lucide-react';
-import noorlight from '../../assets/NORNLIGHT.svg'
-import vector from '../../assets/Vector.svg'
+import noorlight from '../../assets/header-footer/NORNLIGHT.svg'
+import vector from '../../assets/header-footer/Vector.svg'
 
 const navTop = [
   { to: '/about', label: 'О компании' },
@@ -90,4 +90,5 @@ const Header = () => {
     </header>
   )
 }
+
 export default React.memo(Header)
